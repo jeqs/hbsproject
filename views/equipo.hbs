@@ -1,0 +1,8 @@
+{{> header title ="Titulo de Equipo"}}
+<h1>{{ titulo }}</h1>
+<ul>
+    {{#each equipo}}
+    <li>{{this.id}} - {{this.nombre}}</li>
+    {{/each}}
+</ul>
+{{> footer year= "2023"}}
